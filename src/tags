@@ -1,0 +1,493 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/work\/iperf-2.0.9\/missing aclocal-1.13$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -Wall$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = $(strip $(STRIP_DUMMY) \\$/;"	m
+AM_CXXFLAGS	Makefile	/^AM_CXXFLAGS = -Wall$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/work\/iperf-2.0.9\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/work\/iperf-2.0.9\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/work\/iperf-2.0.9\/missing automake-1.13$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+Accept	Listener.cpp	/^void Listener::Accept( thread_Settings *server ) {$/;"	f	class:Listener
+AddToMessageLog	service.c	/^VOID AddToMessageLog(LPTSTR lpszMsg) {$/;"	f
+BILLION	checkdelay.c	66;"	d	file:
+BarrierClient	Reporter.c	/^void BarrierClient( ReportHeader *agent ) {$/;"	f
+CC	Makefile	/^CC = arm-linux-gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -O2 -DNDEBUG -D__SS_LINUX__ -D__SS_ARM_LINUX__ $/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = arm-linux-gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -O2 -DNDEBUG -D__SS_LINUX__ -D__SS_ARM_LINUX__$/;"	m
+CSV_peer	ReportCSV.c	/^void *CSV_peer( Connection_Info *stats, int ID ) {$/;"	f
+CSV_serverstats	ReportCSV.c	/^void CSV_serverstats( Connection_Info *conn, Transfer_Info *stats ) {$/;"	f
+CSV_stats	ReportCSV.c	/^void CSV_stats( Transfer_Info *stats ) {$/;"	f
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = arm-linux-g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS =  -O2 -DNDEBUG -D__SS_LINUX__ -D__SS_ARM_LINUX__ $/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+Client	Client.cpp	/^Client::Client( thread_Settings *inSettings ) {$/;"	f	class:Client
+CloseReport	Reporter.c	/^void CloseReport( ReportHeader *agent, ReportStruct *packet ) {$/;"	f
+CmdInstallService	service.c	/^void CmdInstallService(int argc, char **argv) {$/;"	f
+CmdRemoveService	service.c	/^BOOL CmdRemoveService() {$/;"	f
+CmdStartService	service.c	/^BOOL CmdStartService(int argc, char **argv) {$/;"	f
+Connect	Client.cpp	/^void Client::Connect( ) {$/;"	f	class:Client
+DEFAULTS	Settings.cpp	180;"	d	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(checkdelay_SOURCES) $(iperf_SOURCES)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENV_OPTIONS	Settings.cpp	129;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EndReport	Reporter.c	/^void EndReport( ReportHeader *agent ) {$/;"	f
+Extractor_Destroy	Extractor.c	/^void Extractor_Destroy ( thread_Settings *mSettings ) {$/;"	f
+Extractor_Initialize	Extractor.c	/^void Extractor_Initialize ( char *fileName, int inSize, thread_Settings *mSettings ) {$/;"	f
+Extractor_InitializeFile	Extractor.c	/^void Extractor_InitializeFile ( FILE *fp, int inSize, thread_Settings *mSettings ) {$/;"	f
+Extractor_canRead	Extractor.c	/^int Extractor_canRead ( thread_Settings *mSettings ) {$/;"	f
+Extractor_getNextDataBlock	Extractor.c	/^int Extractor_getNextDataBlock ( char *data, thread_Settings *mSettings ) {$/;"	f
+Extractor_reduceReadSize	Extractor.c	/^void Extractor_reduceReadSize ( int delta, thread_Settings *mSettings ) {$/;"	f
+FALSE	sockets.c	200;"	d	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GetLastErrorText	service.c	/^LPTSTR GetLastErrorText( LPTSTR lpszBuf, DWORD dwSize ) {$/;"	f
+GetReport	Reporter.c	/^Transfer_Info *GetReport( ReportHeader *agent ) {$/;"	f
+HEADERS	Listener.cpp	74;"	d	file:
+HEADERS	PerfSocket.cpp	73;"	d	file:
+HEADERS	Server.cpp	56;"	d	file:
+HEADERS	Settings.cpp	62;"	d	file:
+HEADERS	SocketAddr.c	52;"	d	file:
+HEADERS	main.cpp	61;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+IPERF_THREADS	Locale.c	139;"	d	file:
+IPERF_THREADS	Locale.c	141;"	d	file:
+IPERF_THREADS	Locale.c	143;"	d	file:
+InitMulti	Reporter.c	/^MultiHeader* InitMulti( thread_Settings *agent, int inID ) {$/;"	f
+InitReport	Reporter.c	/^ReportHeader* InitReport( thread_Settings *agent ) {$/;"	f
+InitiateServer	Client.cpp	/^void Client::InitiateServer() {$/;"	f	class:Client
+Iperf_delete	List.cpp	/^void Iperf_delete ( iperf_sockaddr *del, Iperf_ListEntry **root ) {$/;"	f
+Iperf_destroy	List.cpp	/^void Iperf_destroy ( Iperf_ListEntry **root ) {$/;"	f
+Iperf_hostpresent	List.cpp	/^Iperf_ListEntry* Iperf_hostpresent ( iperf_sockaddr *find, Iperf_ListEntry *root ) {$/;"	f
+Iperf_present	List.cpp	/^Iperf_ListEntry* Iperf_present ( iperf_sockaddr *find, Iperf_ListEntry *root ) {$/;"	f
+Iperf_pushback	List.cpp	/^void Iperf_pushback ( Iperf_ListEntry *add, Iperf_ListEntry **root ) {$/;"	f
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBCOMPAT_LDADDS	Makefile	/^LIBCOMPAT_LDADDS = $(strip $(STRIP_DUMMY) \\$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS =  ${LIBOBJDIR}memcmp$U.o$/;"	m
+LIBS	Makefile	/^LIBS = -lrt $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LONG_OPTIONS	Settings.cpp	82;"	d	file:
+LTLIBOBJS	Makefile	/^LTLIBOBJS =  ${LIBOBJDIR}memcmp$U.lo$/;"	m
+Listen	Listener.cpp	/^void Listener::Listen( ) {$/;"	f	class:Listener
+Listener	Listener.cpp	/^Listener::Listener( thread_Settings *inSettings ) {$/;"	f	class:Listener
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/work\/iperf-2.0.9\/missing makeinfo$/;"	m
+MILLION	checkdelay.c	67;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+McastJoin	Listener.cpp	/^void Listener::McastJoin( ) {$/;"	f	class:Listener
+McastSetTTL	Listener.cpp	/^void Listener::McastSetTTL( int val ) {$/;"	f	class:Listener
+NONOPTION_P	gnu_getopt.c	362;"	d	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = iperf$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = Iperf$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = Iperf 2.0.9$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = iperf$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 2.0.9$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PERMUTE	gnu_getopt.c	/^    REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon2	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS) $(noinst_PROGRAMS)$/;"	m
+PTHREAD_CC	Makefile	/^PTHREAD_CC = arm-linux-gcc$/;"	m
+PTHREAD_CFLAGS	Makefile	/^PTHREAD_CFLAGS = $/;"	m
+PTHREAD_LIBS	Makefile	/^PTHREAD_LIBS = $/;"	m
+PrintMSS	Reporter.c	/^void PrintMSS( ReporterData *stats ) {$/;"	f
+RANLIB	Makefile	/^RANLIB = arm-linux-ranlib$/;"	m
+REQUIRE_ORDER	gnu_getopt.c	/^    REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon2	file:
+RETURN_IN_ORDER	gnu_getopt.c	/^    REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon2	file:
+ReportCond	main.cpp	/^    Condition ReportCond;$/;"	v
+ReportDoneCond	main.cpp	/^    Condition ReportDoneCond;$/;"	v
+ReportPacket	Reporter.c	/^void ReportPacket( ReportHeader* agent, ReportStruct *packet ) {$/;"	f
+ReportRoot	Reporter.c	/^ReportHeader *ReportRoot = NULL;$/;"	v
+ReportServerUDP	Reporter.c	/^void ReportServerUDP( thread_Settings *agent, server_hdr *server ) {$/;"	f
+ReportSettings	Reporter.c	/^void ReportSettings( thread_Settings *agent ) {$/;"	f
+ReportStatusToSCMgr	service.c	/^BOOL ReportStatusToSCMgr(DWORD dwCurrentState,$/;"	f
+Run	Client.cpp	/^void Client::Run( void ) {$/;"	f	class:Client
+Run	Listener.cpp	/^void Listener::Run( void ) {$/;"	f	class:Listener
+Run	Server.cpp	/^void Server::Run( void ) {$/;"	f	class:Server
+RunRateLimitedTCP	Client.cpp	/^void Client::RunRateLimitedTCP ( void ) {$/;"	f	class:Client
+RunTCP	Client.cpp	/^void Client::RunTCP( void ) {$/;"	f	class:Client
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHORT_OPTIONS	Settings.cpp	173;"	d	file:
+SOURCES	Makefile	/^SOURCES = $(checkdelay_SOURCES) $(iperf_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = arm-linux-strip$/;"	m
+STRIP_BEGIN	Makefile	/^STRIP_BEGIN = $(strip $(STRIP_DUMMY)$/;"	m
+STRIP_DUMMY	Makefile	/^STRIP_DUMMY = $/;"	m
+STRIP_END	Makefile	/^STRIP_END = )$/;"	m
+Server	Server.cpp	/^Server::Server( thread_Settings *inSettings ) {$/;"	f	class:Server
+ServiceStart	main.cpp	/^VOID ServiceStart (DWORD dwArgc, LPTSTR *lpszArgv) {$/;"	f
+ServiceStop	main.cpp	/^VOID ServiceStop() {$/;"	f
+SetSocketOptions	PerfSocket.cpp	/^void SetSocketOptions( thread_Settings *inSettings ) {$/;"	f
+Settings_Copy	Settings.cpp	/^void Settings_Copy( thread_Settings *from, thread_Settings **into ) {$/;"	f
+Settings_Destroy	Settings.cpp	/^void Settings_Destroy( thread_Settings *mSettings) {$/;"	f
+Settings_GenerateClientHdr	Settings.cpp	/^void Settings_GenerateClientHdr( thread_Settings *client, client_hdr *hdr ) {$/;"	f
+Settings_GenerateClientSettings	Settings.cpp	/^void Settings_GenerateClientSettings( thread_Settings *server, $/;"	f
+Settings_GenerateListenerSettings	Settings.cpp	/^void Settings_GenerateListenerSettings( thread_Settings *client, thread_Settings **listener ) {$/;"	f
+Settings_GetLowerCaseArg	Settings.cpp	/^void Settings_GetLowerCaseArg(const char *inarg, char *outarg) {$/;"	f
+Settings_GetUpperCaseArg	Settings.cpp	/^void Settings_GetUpperCaseArg(const char *inarg, char *outarg) {$/;"	f
+Settings_Initialize	Settings.cpp	/^void Settings_Initialize( thread_Settings *main ) {$/;"	f
+Settings_Interpret	Settings.cpp	/^void Settings_Interpret( char option, const char *optarg, thread_Settings *mExtSettings ) {$/;"	f
+Settings_ParseCommandLine	Settings.cpp	/^void Settings_ParseCommandLine( int argc, char **argv, thread_Settings *mSettings ) {$/;"	f
+Settings_ParseEnvironment	Settings.cpp	/^void Settings_ParseEnvironment( thread_Settings *mSettings ) {$/;"	f
+Sig_Int	Server.cpp	/^void Server::Sig_Int( int inSigno ) {$/;"	f	class:Server
+Sig_Interupt	main.cpp	/^void Sig_Interupt( int inSigno ) {$/;"	f
+SockAddr_Hostare_Equal	SocketAddr.c	/^int SockAddr_Hostare_Equal( struct sockaddr* first, struct sockaddr* second ) {$/;"	f
+SockAddr_are_Equal	SocketAddr.c	/^int SockAddr_are_Equal( struct sockaddr* first, struct sockaddr* second ) {$/;"	f
+SockAddr_getHostAddress	SocketAddr.c	/^void SockAddr_getHostAddress( iperf_sockaddr *inSockAddr, char* outAddress, $/;"	f
+SockAddr_getPort	SocketAddr.c	/^unsigned short SockAddr_getPort( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_get_in6_addr	SocketAddr.c	/^struct in6_addr* SockAddr_get_in6_addr( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_get_in_addr	SocketAddr.c	/^struct in_addr* SockAddr_get_in_addr( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_get_sizeof_sockaddr	SocketAddr.c	/^Socklen_t SockAddr_get_sizeof_sockaddr( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_isIPv6	SocketAddr.c	/^int SockAddr_isIPv6( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_isMulticast	SocketAddr.c	/^int SockAddr_isMulticast( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_localAddr	SocketAddr.c	/^void SockAddr_localAddr( thread_Settings *inSettings ) {$/;"	f
+SockAddr_remoteAddr	SocketAddr.c	/^void SockAddr_remoteAddr( thread_Settings *inSettings ) {$/;"	f
+SockAddr_setAddressAny	SocketAddr.c	/^void SockAddr_setAddressAny( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_setHostname	SocketAddr.c	/^void SockAddr_setHostname( const char* inHostname, $/;"	f
+SockAddr_setPort	SocketAddr.c	/^void SockAddr_setPort( iperf_sockaddr *inSockAddr, unsigned short inPort ) {$/;"	f
+SockAddr_setPortAny	SocketAddr.c	/^void SockAddr_setPortAny( iperf_sockaddr *inSockAddr ) {$/;"	f
+SockAddr_zeroAddress	SocketAddr.c	/^void SockAddr_zeroAddress( iperf_sockaddr *inSockAddr ) {$/;"	f
+TRUE	sockets.c	201;"	d	file:
+UDPSingleServer	Listener.cpp	/^void Listener::UDPSingleServer( ) {$/;"	f	class:Listener
+VERSION	Makefile	/^VERSION = 2.0.9$/;"	m
+WEB100_CFLAGS	Makefile	/^WEB100_CFLAGS = $/;"	m
+WEB100_CONFIG	Makefile	/^WEB100_CONFIG = $/;"	m
+WEB100_LIBS	Makefile	/^WEB100_LIBS = $/;"	m
+_	gnu_getopt.c	54;"	d	file:
+_	gnu_getopt.c	56;"	d	file:
+_GNU_SOURCE	checkdelay.c	47;"	d	file:
+__gnu_getopt_initialized	gnu_getopt.c	/^int __gnu_getopt_initialized = 0;$/;"	v
+_gnu_getopt_initialize	gnu_getopt.c	/^_gnu_getopt_initialize( int argc,$/;"	f	file:
+_gnu_getopt_internal	gnu_getopt.c	/^_gnu_getopt_internal( int argc,$/;"	f
+abs_builddir	Makefile	/^abs_builddir = \/work\/iperf-2.0.9\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/work\/iperf-2.0.9\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/work\/iperf-2.0.9$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/work\/iperf-2.0.9$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = $/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = $/;"	m
+acx_pthread_config	Makefile	/^acx_pthread_config = $/;"	m
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 = $(top_builddir)\/compat\/libcompat.a$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/ax_create_stdint_h.m4 \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am_checkdelay_OBJECTS	Makefile	/^am_checkdelay_OBJECTS = checkdelay.$(OBJEXT)$/;"	m
+am_iperf_OBJECTS	Makefile	/^am_iperf_OBJECTS = Client.$(OBJEXT) Extractor.$(OBJEXT) \\$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = iperf$(EXEEXT)$/;"	m
+bind_address	Locale.c	/^const char bind_address[] =$/;"	v
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+buffer	Reporter.c	/^char buffer[64]; \/\/ Buffer for printing$/;"	v
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+byte_atof	stdio.c	/^double byte_atof( const char *inString ) {$/;"	f
+byte_atoi	stdio.c	/^max_size_t byte_atoi( const char *inString ) {$/;"	f
+byte_snprintf	stdio.c	/^void byte_snprintf( char* outString, int inLen,$/;"	f
+checkMSS_MTU	ReportDefault.c	401;"	d	file:
+checkMSS_MTU	Reporter.c	1151;"	d	file:
+checkdelay_DEPENDENCIES	Makefile	/^checkdelay_DEPENDENCIES = $(am__DEPENDENCIES_1)$/;"	m
+checkdelay_LDADD	Makefile	/^checkdelay_LDADD = $(LIBCOMPAT_LDADDS)$/;"	m
+checkdelay_OBJECTS	Makefile	/^checkdelay_OBJECTS = $(am_checkdelay_OBJECTS)$/;"	m
+checkdelay_SOURCES	Makefile	/^checkdelay_SOURCES = checkdelay.c$/;"	m
+cleanup	main.cpp	/^void cleanup( void ) {$/;"	f
+client_datagram_size	Locale.c	/^const char client_datagram_size[] =$/;"	v
+client_datagram_size_kalman	Locale.c	/^const char client_datagram_size_kalman[] =$/;"	v
+client_init	Launch.cpp	/^void client_init( thread_Settings *clients ) {$/;"	f
+client_pid_port	Locale.c	/^const char client_pid_port[] =$/;"	v
+client_port	Locale.c	/^const char client_port[] =$/;"	v
+client_spawn	Launch.cpp	/^void client_spawn( thread_Settings *thread ) {$/;"	f
+clients	List.cpp	/^Iperf_ListEntry *clients = NULL;$/;"	v
+clients_mutex	List.cpp	/^Mutex clients_mutex; $/;"	v
+connection_notimpl	Reporter.c	/^void* connection_notimpl( Connection_Info * nused, int nuse ) { $/;"	f
+connection_reports	Reporter.c	/^report_connection connection_reports[kReport_MAXIMUM] = {$/;"	v
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dwErr	service.c	/^DWORD                   dwErr = 0;$/;"	v
+env_options	Settings.cpp	/^const struct option env_options[] =$/;"	v	typeref:struct:option
+exchange	gnu_getopt.c	/^exchange( char **argv ) {$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+first_nonopt	gnu_getopt.c	/^static int first_nonopt;$/;"	v	file:
+getsock_tcp_mss	sockets.c	/^int getsock_tcp_mss( int inSock ) {$/;"	f
+getsock_tcp_windowsize	tcp_window_size.c	/^int getsock_tcp_windowsize( int inSock, int inSend ) {$/;"	f
+gettcpistats	Reporter.c	/^static void gettcpistats (ReporterData *stats) {$/;"	f	file:
+gnu_getopt	gnu_getopt.c	/^gnu_getopt ( int argc,$/;"	f
+gnu_getopt_long	gnu_getopt_long.c	/^gnu_getopt_long( int argc,$/;"	f
+gnu_getopt_long_only	gnu_getopt_long.c	/^gnu_getopt_long_only( int argc,$/;"	f
+gnu_optarg	gnu_getopt.c	/^char *gnu_optarg = NULL;$/;"	v
+gnu_opterr	gnu_getopt.c	/^int gnu_opterr = 1;$/;"	v
+gnu_optind	gnu_getopt.c	/^int gnu_optind = 1;$/;"	v
+gnu_optopt	gnu_getopt.c	/^int gnu_optopt = '?';$/;"	v
+groupCond	main.cpp	/^    Mutex groupCond;$/;"	v
+groupID	main.cpp	/^    int groupID = 0;$/;"	v
+host	Makefile	/^host = arm-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = arm-linux$/;"	m
+host_cpu	Makefile	/^host_cpu = arm$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = arm-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/work\/iperf-2.0.9\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+iperf_DEPENDENCIES	Makefile	/^iperf_DEPENDENCIES = $(am__DEPENDENCIES_1)$/;"	m
+iperf_LDADD	Makefile	/^iperf_LDADD = $(LIBCOMPAT_LDADDS)$/;"	m
+iperf_LDFLAGS	Makefile	/^iperf_LDFLAGS =  -O2 -DNDEBUG -D__SS_LINUX__ -D__SS_ARM_LINUX__    -DHAVE_CONFIG_H$/;"	m
+iperf_LINK	Makefile	/^iperf_LINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(iperf_LDFLAGS) \\$/;"	m
+iperf_OBJECTS	Makefile	/^iperf_OBJECTS = $(am_iperf_OBJECTS)$/;"	m
+iperf_SOURCES	Makefile	/^iperf_SOURCES = \\$/;"	m
+join_multicast	Locale.c	/^const char join_multicast[] =$/;"	v
+kBytes_to_Bits	Client.cpp	/^const int    kBytes_to_Bits = 8; $/;"	v
+kConv_Giga	stdio.c	/^    kConv_Giga$/;"	e	enum:__anon1	file:
+kConv_Kilo	stdio.c	/^    kConv_Kilo,$/;"	e	enum:__anon1	file:
+kConv_Mega	stdio.c	/^    kConv_Mega,$/;"	e	enum:__anon1	file:
+kConv_Unit	stdio.c	/^    kConv_Unit,$/;"	e	enum:__anon1	file:
+kConversion	stdio.c	/^const double kConversion[] =$/;"	v
+kConversionForBits	stdio.c	/^const double kConversionForBits[] =$/;"	v
+kDefault_UDPBufLen	Settings.cpp	/^const int  kDefault_UDPBufLen = 1470;      \/\/ -u  if set, read\/write 1470 bytes$/;"	v
+kDefault_UDPRate	Settings.cpp	/^const long kDefault_UDPRate = 1024 * 1024; \/\/ -u  if set, 1 Mbit\/sec$/;"	v
+kGiga_to_Unit	stdio.c	/^const long kGiga_to_Unit = 1024 * 1024 * 1024;$/;"	v
+kKilo_to_Unit	stdio.c	/^const long kKilo_to_Unit = 1024;$/;"	v
+kLabel_Byte	stdio.c	/^const char* kLabel_Byte[] =$/;"	v
+kLabel_bit	stdio.c	/^const char* kLabel_bit[]  =$/;"	v
+kMega_to_Unit	stdio.c	/^const long kMega_to_Unit = 1024 * 1024;$/;"	v
+kSecs_to_nsecs	Client.cpp	/^const double kSecs_to_nsecs = 1e9; $/;"	v
+kgiga_to_Unit	stdio.c	/^const long kgiga_to_Unit = 1000 * 1000 * 1000;$/;"	v
+kkilo_to_Unit	stdio.c	/^const long kkilo_to_Unit = 1000;$/;"	v
+kmega_to_Unit	stdio.c	/^const long kmega_to_Unit = 1000 * 1000;$/;"	v
+last_nonopt	gnu_getopt.c	/^static int last_nonopt;$/;"	v	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+listener_spawn	Launch.cpp	/^void listener_spawn( thread_Settings *thread ) {$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+long_options	Settings.cpp	/^const struct option long_options[] =$/;"	v	typeref:struct:option
+main	checkdelay.c	/^int main (int argc, char **argv) {$/;"	f
+main	gnu_getopt.c	/^main (argc, argv)$/;"	f
+main	gnu_getopt_long.c	/^main (argc, argv)$/;"	f
+main	main.cpp	/^int main( int argc, char **argv ) {$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+multicast_ttl	Locale.c	/^const char multicast_ttl[] =$/;"	v
+multiple_reports	Reporter.c	/^report_statistics multiple_reports[kReport_MAXIMUM] = {$/;"	v
+my_index	gnu_getopt.c	/^my_index( const char* str, int chr ) {$/;"	f	file:
+nextchar	gnu_getopt.c	/^static char *nextchar;$/;"	v	file:
+noinst_PROGRAMS	Makefile	/^noinst_PROGRAMS = checkdelay$(EXEEXT)$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+opt_estimate	Locale.c	/^const char opt_estimate[]=$/;"	v
+ordering	gnu_getopt.c	/^} ordering;$/;"	v	typeref:enum:__anon2	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/iperf$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/iperf$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/iperf$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/iperf$/;"	m
+posixly_correct	gnu_getopt.c	/^static char *posixly_correct;$/;"	v	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+process_report	Reporter.c	/^void process_report ( ReportHeader *report ) {$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+readn	sockets.c	/^ssize_t readn( int inSock, void *outBuf, size_t inLen ) {$/;"	f
+redirect	stdio.c	/^void redirect(const char *inOutputFileName) {$/;"	f
+reportCSV_bw_format	Locale.c	/^const char reportCSV_bw_format[] =$/;"	v
+reportCSV_bw_jitter_loss_format	Locale.c	/^const char reportCSV_bw_jitter_loss_format[] =$/;"	v
+reportCSV_peer	Locale.c	/^const char reportCSV_peer[] =$/;"	v
+report_bw_enhanced_format	Locale.c	/^const char report_bw_enhanced_format[] =$/;"	v
+report_bw_format	Locale.c	/^const char report_bw_format[] =$/;"	v
+report_bw_header	Locale.c	/^const char report_bw_header[] =$/;"	v
+report_bw_jitter_loss_enhanced_format	Locale.c	/^const char report_bw_jitter_loss_enhanced_format[] =$/;"	v
+report_bw_jitter_loss_enhanced_header	Locale.c	/^const char report_bw_jitter_loss_enhanced_header[] =$/;"	v
+report_bw_jitter_loss_format	Locale.c	/^const char report_bw_jitter_loss_format[] =$/;"	v
+report_bw_jitter_loss_header	Locale.c	/^const char report_bw_jitter_loss_header[] =$/;"	v
+report_bw_jitter_loss_suppress_enhanced_format	Locale.c	/^const char report_bw_jitter_loss_suppress_enhanced_format[] =$/;"	v
+report_bw_pps_enhanced_format	Locale.c	/^const char report_bw_pps_enhanced_format[] =$/;"	v
+report_bw_pps_enhanced_header	Locale.c	/^const char report_bw_pps_enhanced_header[] =$/;"	v
+report_bw_read_enhanced_format	Locale.c	/^const char report_bw_read_enhanced_format[] =$/;"	v
+report_bw_read_enhanced_header	Locale.c	/^const char report_bw_read_enhanced_header[] =$/;"	v
+report_bw_write_enhanced_format	Locale.c	/^const char report_bw_write_enhanced_format[] =$/;"	v
+report_bw_write_enhanced_header	Locale.c	/^const char report_bw_write_enhanced_header[] =$/;"	v
+report_datagrams	Locale.c	/^const char report_datagrams[] =$/;"	v
+report_interval_small	Locale.c	/^const char report_interval_small[] =$/;"	v
+report_mss	Locale.c	/^const char report_mss[] =$/;"	v
+report_mss_unsupported	Locale.c	/^const char report_mss_unsupported[] =$/;"	v
+report_outoforder	Locale.c	/^const char report_outoforder[] =$/;"	v
+report_peer	Locale.c	/^const char report_peer[] =$/;"	v
+report_sum_bw_enhanced_format	Locale.c	/^const char report_sum_bw_enhanced_format[] =$/;"	v
+report_sum_bw_format	Locale.c	/^const char report_sum_bw_format[] =$/;"	v
+report_sum_bw_jitter_loss_enhanced_format	Locale.c	/^const char report_sum_bw_jitter_loss_enhanced_format[] =$/;"	v
+report_sum_bw_jitter_loss_format	Locale.c	/^const char report_sum_bw_jitter_loss_format[] =$/;"	v
+report_sum_bw_pps_enhanced_format	Locale.c	/^const char report_sum_bw_pps_enhanced_format[] =$/;"	v
+report_sum_bw_read_enhanced_format	Locale.c	/^const char report_sum_bw_read_enhanced_format[] =$/;"	v
+report_sum_bw_write_enhanced_format	Locale.c	/^const char report_sum_bw_write_enhanced_format[] =$/;"	v
+report_sum_datagrams	Locale.c	/^const char report_sum_datagrams[] =$/;"	v
+report_sum_outoforder	Locale.c	/^const char report_sum_outoforder[] =$/;"	v
+reporter_condprintstats	Reporter.c	/^int reporter_condprintstats( ReporterData *stats, MultiHeader *multireport, int force ) {$/;"	f
+reporter_handle_multiple_reports	Reporter.c	/^void reporter_handle_multiple_reports( MultiHeader *reporthdr, Transfer_Info *stats, int force ) {$/;"	f
+reporter_handle_packet	Reporter.c	/^int reporter_handle_packet( ReportHeader *reporthdr ) {$/;"	f
+reporter_multistats	ReportDefault.c	/^void reporter_multistats( Transfer_Info *stats ) {$/;"	f
+reporter_print	Reporter.c	/^int reporter_print( ReporterData *stats, int type, int end ) {$/;"	f
+reporter_printstats	ReportDefault.c	/^void reporter_printstats( Transfer_Info *stats ) {$/;"	f
+reporter_process_report	Reporter.c	/^int reporter_process_report ( ReportHeader *reporthdr ) {$/;"	f
+reporter_reportMSS	ReportDefault.c	/^void reporter_reportMSS( int inMSS, thread_Settings *inSettings ) {$/;"	f
+reporter_reportpeer	ReportDefault.c	/^void *reporter_reportpeer( Connection_Info *stats, int ID ) {$/;"	f
+reporter_reportsettings	ReportDefault.c	/^void reporter_reportsettings( ReporterData *data ) {$/;"	f
+reporter_serverstats	ReportDefault.c	/^void reporter_serverstats( Connection_Info *nused, Transfer_Info *stats ) {$/;"	f
+reporter_spawn	Reporter.c	/^void reporter_spawn( thread_Settings *thread ) {$/;"	f
+sInterupted	main.cpp	/^    int sInterupted = 0;$/;"	v
+sThread	main.cpp	/^nthread_t sThread;$/;"	v
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+separator_line	Locale.c	/^const char separator_line[] =$/;"	v
+server_datagram_size	Locale.c	/^const char server_datagram_size[] =$/;"	v
+server_pid_port	Locale.c	/^const char server_pid_port[] =$/;"	v
+server_port	Locale.c	/^const char server_port[] =$/;"	v
+server_reporting	Locale.c	/^const char server_reporting[] =$/;"	v
+server_spawn	Launch.cpp	/^void server_spawn( thread_Settings *thread) {$/;"	f
+serverstatistics_notimpl	Reporter.c	/^void serverstatistics_notimpl( Connection_Info *nused1, Transfer_Info *nused2 ) { }$/;"	f
+serverstatistics_reports	Reporter.c	/^report_serverstatistics serverstatistics_reports[kReport_MAXIMUM] = {$/;"	v
+service_ctrl	service.c	/^VOID WINAPI service_ctrl(DWORD dwCtrlCode) {$/;"	f
+service_main	service.c	/^void WINAPI service_main(DWORD dwArgc, LPTSTR *lpszArgv) {$/;"	f
+setsock_blocking	sockets.c	/^bool setsock_blocking (int fd, bool blocking) {$/;"	f
+setsock_tcp_mss	sockets.c	/^void setsock_tcp_mss( int inSock, int inMSS ) {$/;"	f
+setsock_tcp_windowsize	tcp_window_size.c	/^int setsock_tcp_windowsize( int inSock, int inTCPWin, int inSend ) {$/;"	f
+settings_notimpl	Reporter.c	/^void settings_notimpl( ReporterData * nused ) { }$/;"	f
+settings_reports	Reporter.c	/^report_settings settings_reports[kReport_MAXIMUM] = {$/;"	v
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+short_options	Settings.cpp	/^const char short_options[] = "1b:c:def:hi:l:mn:o:p:rst:uvw:x:y:zB:CDF:IL:M:NP:RS:T:UVWZ:";$/;"	v
+srcdir	Makefile	/^srcdir = .$/;"	m
+ssStatus	service.c	/^SERVICE_STATUS          ssStatus;       \/\/ current status of the service$/;"	v
+sshStatusHandle	service.c	/^SERVICE_STATUS_HANDLE   sshStatusHandle;$/;"	v
+statistics_notimpl	Reporter.c	/^void statistics_notimpl( Transfer_Info * nused ) { }$/;"	f
+statistics_reports	Reporter.c	/^report_statistics statistics_reports[kReport_MAXIMUM] = {$/;"	v
+subdir	Makefile	/^subdir = src$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+szErr	service.c	/^TCHAR                   szErr[256];$/;"	v
+target_alias	Makefile	/^target_alias = $/;"	m
+tcp_window_size	Locale.c	/^const char tcp_window_size[] =$/;"	v
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+udp_buffer_size	Locale.c	/^const char udp_buffer_size[] =$/;"	v
+unable_to_change_win	Locale.c	/^const char unable_to_change_win[]=$/;"	v
+usage_long1	Locale.c	/^const char usage_long1[] = "\\$/;"	v
+usage_long2	Locale.c	/^const char usage_long2[] = "\\$/;"	v
+usage_short	Locale.c	/^const char usage_short[] = "\\$/;"	v
+version	Locale.c	/^const char version[] =$/;"	v
+wait_server_threads	Locale.c	/^const char wait_server_threads[] =$/;"	v
+warn_ack_failed	Locale.c	/^const char warn_ack_failed[]=$/;"	v
+warn_buffer_too_small	Locale.c	/^const char warn_buffer_too_small[] =$/;"	v
+warn_delay_large	Locale.c	/^const char warn_delay_large[] =$/;"	v
+warn_fileopen_failed	Locale.c	/^const char warn_fileopen_failed[]=$/;"	v
+warn_implied_compatibility	Locale.c	/^const char warn_implied_compatibility[] =$/;"	v
+warn_implied_udp	Locale.c	/^const char warn_implied_udp[] =$/;"	v
+warn_invalid_client_option	Locale.c	/^const char warn_invalid_client_option[] =$/;"	v
+warn_invalid_compatibility_option	Locale.c	/^const char warn_invalid_compatibility_option[] =$/;"	v
+warn_invalid_report	Locale.c	/^const char warn_invalid_report[] =$/;"	v
+warn_invalid_report_style	Locale.c	/^const char warn_invalid_report_style[] =$/;"	v
+warn_invalid_server_option	Locale.c	/^const char warn_invalid_server_option[] =$/;"	v
+warn_invalid_single_threaded	Locale.c	/^const char warn_invalid_single_threaded[] =$/;"	v
+warn_mss_fail	sockets.c	/^const char warn_mss_fail[] = "\\$/;"	v
+warn_mss_notset	sockets.c	/^const char warn_mss_notset[] =$/;"	v
+warn_no_ack	Locale.c	/^const char warn_no_ack[]=$/;"	v
+warn_no_pathmtu	Locale.c	/^const char warn_no_pathmtu[] =$/;"	v
+warn_window_requested	Locale.c	/^const char warn_window_requested[] =$/;"	v
+warn_window_small	Locale.c	/^const char warn_window_small[] = "\\$/;"	v
+window_default	Locale.c	/^const char window_default[] =$/;"	v
+write_UDP_AckFIN	Server.cpp	/^void Server::write_UDP_AckFIN( ) {$/;"	f	class:Server
+write_UDP_FIN	Client.cpp	/^void Client::write_UDP_FIN( ) {$/;"	f	class:Client
+writen	sockets.c	/^ssize_t writen( int inSock, const void *inBuf, size_t inLen ) {$/;"	f
+~Client	Client.cpp	/^Client::~Client() {$/;"	f	class:Client
+~Listener	Listener.cpp	/^Listener::~Listener() {$/;"	f	class:Listener
+~Server	Server.cpp	/^Server::~Server() {$/;"	f	class:Server
