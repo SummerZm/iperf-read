@@ -58,6 +58,12 @@ C. 全局配置的初始化 【Setting.cpp|Setting.hpp】：
 			....
 			Settings_Interpret( env_options[i].val, theVariable, mSettings );
 			....
+		4. 根据setting判断是否启动切换为守护进程
+		
+	d. 启动处理线程
+		1. thread->runNow	【recusive】
+		2. thread->runNext	【recusive】
+	
 		
 		
 		

@@ -1,0 +1,71 @@
+A. Server模式流程: fthread_start() -> thread_run_wrapper() -> server_spawn() -> theServer->Run();
+
+B. 相关结构体 【https://blog.csdn.net/chinabhlt/article/details/47165285】
+	struct msghdr
+	{ 
+		// 协议地址和套接口信息(在TCP或者连接的UDP中，一般设置为NULL)
+ 		void* msg_name;				// 消息的协议地址 -- 指向一个结构体struct sockaddr的指针{ sa_family= AF_INET, sin_port = 0, sin_addr.s_addr = 192.168.1.168 }；
+		socklen_t msg_namelen; 		// 地址的长度
+		struct iovec* msg_iov;		// 多io缓冲区的地址 -- 通常指向一个struct iovec的数组
+		int msg_iovlen;				// 缓冲区的个数
+		void  * msg_control;		// 辅助数据的地址 -- 通常指向一个控制消息头部 struct cmsghdr
+		socklen_t msg_controllen;	// 辅助数据的长度
+		int  msg_flags;				// 接收消息的标识
+	} ;
+		
+		flags用于传入控制信息，一般包括以下几个
+		MSG_DONTROUTE             send可用
+		MSG_DONWAIT               send与recv都可用
+		MSG_PEEK                  recv可用
+		MSG_WAITALL               recv可用
+		MSG_OOB                   send可用
+		MSG_EOR                   send recv可用
+	
+		ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags); 
+		ssize_t sendmsg(int sockfd, struct msghdr *msg, int flags);
+		返回信息都记录在struct msghdr * msg中
+		
+	struct cmsghdr  { 
+  		socklen_t cmsg_len;	// 包含该头部的数据长度
+   		int  cmsg_level;	// 具体的协议标识
+   		int  cmsg_type; 	// 协议中的类型
+	}; 
+	
+	struct iovec {
+		ptr_t iov_base; // Starting address
+		size_t iov_len; // Length in bytes
+	};
+		struct iovec的数组，每个成员的io_base都指向了不同的buffer的地址。io_len是指该buffer中的数据长度。
+	
+	struct sockaddr_storage {			// for ipv6
+		sa_family_t ss_family;      	// Address family 
+		__ss_aligntype __ss_align;  	// Force desired alignment. 
+		char __ss_padding[_SS_PADSIZE];
+	};
+	setsockopt()设置超时，在内核对网络帧打上时间戳
+	
+C. 设置线程优先级 【https://www.cnblogs.com/xiaotlili/p/3510224.html】 
+	struct sched_param sp;
+	sp.sched_priority = sched_get_priority_max(SCHED_RR); 
+	// SCHED_OTHER, SCHED_FIFO, SCHED_RR
+	
+D. 设置内存数据锁【https://blog.csdn.net/zhjutao/article/details/8652252】
+	a. 原型: int mlockall(int flags);
+	b. 作用: mlockall函数将调用进程的全部虚拟地址空间加锁。防止出现内存交换，将该进程的地址空间交换到外存上。
+	c. mlockall将所有映射到进程地址空间的内存上锁。这些页包括: 代码段，数据段，栈段，共享库，共享内存，user space kernel data,memory-mapped file.当函数成功返回的时候，所有的被映射的页都在内存中。
+	d. flags可取两个值：MCL_CURRENT,MCL_FUTURE
+		MCL_CURRENT: 表示对所有已经映射到进程地址空间的页上锁
+		MCL_FUTURE:  表示对所有将来映射到进程地空间的页都上锁
+		
+	e. 返回： 成功返回0，出错返回-1
+	f. 应用： real-time algorithms(实时算法) 和 high-security data processing(机密数据的处理)
+	g. 如果进程执行了一个execve类函数，所有的锁都会被删除。
+	h. 内存锁不会被子进程继承; 内存锁不会叠加，即使多次调用mlockall函数，只调用一次munlock就会解锁
+	
+E. 接收客户端发来的数据包(数据包带有的统计信息，可用于打印reporter结构体.)
+
+	
+	
+
+
+	

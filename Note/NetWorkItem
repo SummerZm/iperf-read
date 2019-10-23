@@ -1,0 +1,3 @@
+A. 网络设置项
+	a. 网络接口超时时间：setsockopt( mSettings->mSock, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout)) < 0 )
+	b. 网络帧添加时间戳: setsockopt(mSettings->mSock, SOL_SOCKET, SO_TIMESTAMP, (int *) &timestampOn, sizeof(timestampOn)) < 0)
